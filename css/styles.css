@@ -1,0 +1,183 @@
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+
+.container-fluid{
+    padding:7% 15%;
+    
+}
+
+.coloured-section{
+    background-color:rgb(231, 75, 133) ;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+    color: #fff;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat-Bold";
+
+}
+
+
+.heading{
+      
+    font-size: 3.5rem;
+    font-weight: 1000;
+    line-height: 1.5;
+    
+
+}
+
+.price-head{
+    line-height:1.5 ;
+    font-size:3.5rem ;
+
+}
+
+
+p{
+    color: #8f8f8f;
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+    /* padding:0 0 4.5rem */
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 1.6rem;
+    font-weight: bold;
+
+}
+
+.nav-item{
+    padding: 0 19px;
+}
+.nav-link{
+    font-family: "Montserrat-light";
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.download-button{
+    margin: 5% 3% 3% 0;
+}
+.dog-img{
+    width:60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 35%;
+    
+}
+
+
+
+
+#features{
+    
+    position: relative;
+    /* z-index: 1; */
+    
+}
+ 
+.feature-box{
+    
+    padding: 3%;
+
+}
+
+.feature-head{
+
+    font-size: 2rem;
+    font-weight: 1000;
+
+}
+
+.icon{
+    color: rgb(231, 75, 133); 
+    margin: 6px;
+}
+
+.icon:hover{
+    color: rgb(249, 123, 123);
+}
+
+
+
+.h22{
+    /* font-family: "Montserrat-Bold"; */
+    line-height:1.5 ;
+    font-size:3.5rem ;
+    color: #fff;
+    
+}
+
+
+
+.img{
+    width: 15%;
+    border-radius: 100%;
+    margin: 25px;
+}
+
+#press{
+    
+    padding: 5%;
+    
+}
+
+.logo{
+    width: 15%;
+}
+
+
+
+.priced{
+    /* line-height:1.5 ; */
+    font-size:3.5rem ;
+
+}
+.price{
+    padding: 3% 2%;
+}
+
+@media (max-width:1039px) {
+    #title{
+        text-align: center;
+    }
+
+    .dog-img{
+        transform: rotate(0);
+        position: static;
+    }
+    
+}
+
+#cta{
+    
+    
+    color: #fff;
+    margin: 0 10% 4%;
+    
+}
+
+.bu{
+    margin: 3% 2%;
+}
+
+
+
+.font{
+    margin: 0 15px 2%;
+}
+
